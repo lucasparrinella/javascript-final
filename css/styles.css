@@ -1,0 +1,139 @@
+/*nav-bar*/
+
+body {
+    width: 100%;
+    background-color: #121212;
+}
+
+nav {
+    z-index: 1;
+    display: flex;
+    padding: 15px 75px 15px 75px;
+    justify-content: space-between;
+    background-color: #141414;
+    text-align: center;
+    border-bottom: solid;
+    /* background-image: url(/images/nav-background.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    text-decoration: none;
+    color: rgb(109, 69, 202);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 0 0 0;
+    cursor: pointer;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.title:hover{
+    color: rgb(200, 191, 219);
+    transition: ease 0.3s all;
+}
+
+.alert {
+    z-index: 2;
+}
+
+.hide {
+    display: none;
+}
+
+
+.remove {
+    display: none;
+}
+/*main-information*/
+
+main {
+    display: block;
+    margin: 0px auto;
+    width: 90%;
+}
+
+main div {
+    width: 75%;
+    padding: 100px 0 0 0;
+    text-align: center;
+    margin: auto;
+    color: rgb(200, 191, 219);
+}
+
+.main-wizard {
+    display: block;
+    height: 150px;
+    width: auto;
+    padding: 0 0 0 90px;
+    margin:auto;
+}
+
+.svg {
+    margin: 0 0 0 0;
+}
+
+/*shop*/
+
+.shop {
+    margin: auto;
+    width: 90%;
+}
+
+h2 {
+    padding: 35px 0 0 0;
+    color: rgb(200, 191, 219);
+    text-align: center;
+}
+
+/*shop-cards*/
+
+.characters-shop {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 10px 15px 10px;
+}
+
+.card-title {
+    color: rgb(109, 69, 202);
+    border: none;
+}
+
+.card-body {
+    background-color: #121212;
+    border: none;
+}
+
+.card-text {
+    color: rgb(200, 191, 219);
+    border: none;
+}
+
+/*next*/
+
+.next{
+    margin: 200px 0 0 0;
+}
+
+.next-sign {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+/*Cart*/
+
+table {
+    margin: 50px 0 0 0;
+}
+
+.carritoImagen {
+    width: 120px;
+    height: auto;
+}
